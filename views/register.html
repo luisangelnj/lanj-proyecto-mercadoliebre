@@ -52,12 +52,12 @@
     <main>
         <div class="register-form">
             <form action="#">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido"><br>
-                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario"><br>
-                <input type="email" name="email" id="email" placeholder="Correo electrónico"><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required><br>
+                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario" required><br>
+                <input type="email" name="email" id="email" placeholder="Correo electrónico" required><br>
                 <label for="date" class="reginput">Fecha de nacimiento</label><br>
-                <input type="date" name="date" id="date"><br>
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"><br>
+                <input type="date" name="date" id="date" required><br>
+                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required><br>
 
                 <p class="register">Perfil del usuario</p>
                     <div class="radio">
@@ -98,13 +98,13 @@
 
                 <div>
                     <label for="avatar" class="register">Foto de perfil:</label>
-                    <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg">
+                    <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg" required>
                 </div>
                 <div class="space">
-                    <input type="password" name="password" id="password" placeholder="Contraseña">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
                 </div>
                 <div>
-                    <input type="password" name="passwordc" id="passwordc" placeholder="Confirmar contraseña">
+                    <input type="password" name="passwordc" id="passwordc" placeholder="Confirmar contraseña" required>
                 </div>
                 <div><button>Enviar</button><button>Borrar</button></div>
             </form>

@@ -375,6 +375,7 @@ footer p.copyright{
     margin-top: 15px;
     padding-bottom: 15px;
     background-color: white;
+    text-align: center;
 }
 
 @media (max-width: 361px) {
